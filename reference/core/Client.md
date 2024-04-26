@@ -57,7 +57,7 @@ client.setOperator(operatorAccountId, operatorPrivateKey);
 
 ### Static Methods
 
-##### `forNetwork` ( `network`: `Map` < `String` , [`AccountId`](../cryptocurrency/AccountId.md) > ): `Client`
+##### `forCustomNetwork` ( `network`: `Map` < `String` , [`AccountId`](../cryptocurrency/AccountId.md) >, `ledgerId`: [`LedgerId`](../LedgerId.md) ): `Client`
 
 Construct a client for a specific network.
 
